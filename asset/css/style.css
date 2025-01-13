@@ -52,3 +52,24 @@ ul {
     margin-left: 0px;
     padding-left: 10px;
 }
+
+th {
+    color: white;
+}
+
+thead {
+    background-color: var(--bl-head-table);
+    text-align: left;
+}
+
+#first_row {
+    background-color: var(--bl-table);
+} 
+
+th.thin_th {
+    width: 25%;
+}
+
+th.large_th {
+    width: 50%;
+}
