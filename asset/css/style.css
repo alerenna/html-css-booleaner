@@ -43,7 +43,7 @@ p {
     font-size: 12px;
 }
 
-#text1 {
+.text1 {
     margin-top: 20px;
 }
 
@@ -62,7 +62,7 @@ thead {
     text-align: left;
 }
 
-#first_row {
+.first_row {
     background-color: var(--bl-table);
 } 
 
