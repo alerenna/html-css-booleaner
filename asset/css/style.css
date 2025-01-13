@@ -1,0 +1,21 @@
+:root {
+    --bl-background: #4EA0FF;
+    --bl-author: #999999;
+    --bl-head-table: #20A9E5;
+    --bl-table: #B1E5F2;
+    --bl-underline: #FFFF00;
+}
+
+#site_header
+{
+    background-image: url("../img/pattern.png");
+    background-color: var(--bl-background);
+    background-size: 35%;
+
+}
+
+#logo {
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
