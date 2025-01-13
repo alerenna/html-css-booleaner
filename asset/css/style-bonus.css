@@ -1,0 +1,110 @@
+:root {
+    --bl-background: #4EA0FF;
+    --bl-author: #999999;
+    --bl-head-table: #20A9E5;
+    --bl-table: #B1E5F2;
+    --bl-underline: #FFFF00;
+}
+
+#container {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: var(--bl-head-table);
+}
+
+#site_header
+{
+    background-image: url("../img/pattern.png");
+    background-color: var(--bl-background);
+    background-size: 30%;
+
+}
+
+#logo {
+    width: 15%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#author {
+    color: var(--bl-author);
+}
+
+#data {
+    color: var(--bl-author);
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 0;
+}
+
+#pic_description {
+    font-size: 12px;
+}
+
+#text1 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: style type;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+th {
+    color: white;
+}
+
+thead {
+    background-color: var(--bl-head-table);
+    text-align: left;
+}
+
+#first_row {
+    background-color: var(--bl-table);
+} 
+
+th.thin_th {
+    width: 25%;
+}
+
+th.large_th {
+    width: 50%;
+}
+
+#interest {
+    color: var(--bl-author);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#monitor {
+    color: white;
+    font-weight: bold;
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 250px;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#graph {
+    color: white;
+    font-weight: bold;
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 250px;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
