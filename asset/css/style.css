@@ -6,6 +6,15 @@
     --bl-underline: #FFFF00;
 }
 
+*{
+    margin: 0;
+}
+
+#container 
+{
+    margin-left: 0.5rem;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: var(--bl-head-table);
@@ -19,10 +28,18 @@ a:link, a:visited {
 
 }
 
-#logo {
+#logo 
+{
     width: 15%;
     margin-top: 30px;
     margin-left: 10px;
+}
+
+#article_title
+{
+    font-size: 30px;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
 }
 
 #author {
@@ -51,6 +68,8 @@ ul {
     list-style-type: style type;
     margin-left: 0px;
     padding-left: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 th {
